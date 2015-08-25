@@ -1,6 +1,4 @@
-<!--
-The design of this website was based on Andrew Koo's code www.andrewlkoo.com, thanks
--->
+<!--This code is a WIP-->
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -21,20 +19,12 @@ The design of this website was based on Andrew Koo's code www.andrewlkoo.com, th
   </head>
 
   <body>
+
+    <h3 align = "center">This is what I've been up to for the last 4ish years.</h3>
+    <img src="timeline.png" class="displayed img-responsive" alt="timeline">
+    <p align = "center">get a more detailed <a href="resume/Harrison%20Lynch%20Resume%2008_25_2015.pdf" download>resume</a></p>
+
       
-      <div class="container-fluid">
-          <div class="row">
-            <div class="col-lg-4 col-lg-offset-1">
-                <img src="picture.jpg" class="img-rounded" alt="face pic" width=100%>  
-            </div>
-            <div class="col-lg-6 col-lg-offset-1">
-                <h1><p>Hi</p></h1>
-                My name is Harrison Lynch.<p>I am an Industrial Engineering Student at the University of Pittsburgh.</p>
-                <p>Feel free to download my <a href="resume/Harrison%20Lynch%20Resume%2008_25_2015.pdf" download>resume</a>, or look at at one <a href="res.html">here</a></p>
-                <p><a href="mailto:hal53@pitt.edu">email</a> / <a href="https://www.linkedin.com/in/harrisonalynch"><i class="fa fa-linkedin-square"></i></a></p>
-            </div>
-          </div>
-      </div>
       
     <!-- Bootstrap core JavaScript
     ================================================== -->
@@ -43,5 +33,10 @@ The design of this website was based on Andrew Koo's code www.andrewlkoo.com, th
     <script src="../../dist/js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script>
+        $(document).ready(function(){
+        $('[data-toggle="tooltip"]').tooltip(); 
+        });
+    </script>
   </body>
 </html>
