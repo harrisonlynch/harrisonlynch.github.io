@@ -1,0 +1,22 @@
+<html>
+
+	<head>
+	   <script type = "text/javascript" 
+         src = "http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+		
+      <script type = "text/javascript" language = "javascript">
+         $(document).ready(function() {			
+            $("#driver").click(function(event){				
+               $.get( 
+					"https://maker.ifttt.com/trigger/resume_download/with/key/nDbLLa-bj7o4rkt-GisiTEpF-Q8PVspjYp4pyuMyCOO"
+               );	
+            });				
+         });
+      </script>
+	 
+	</head>
+	
+	<body>
+		<input type = "button" id = "driver" value = "Load Data" />
+	</body>
+</html>
