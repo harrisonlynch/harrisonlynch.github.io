@@ -26,8 +26,8 @@ And this text is also in the same paragraph
 + Item dos
 + Item tres
 
-	beep boop beep boop
-	this is some code
+    beep boop beep boop
+    this is some code
 
 This is some `inline_code().yeah`
 
