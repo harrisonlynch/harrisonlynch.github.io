@@ -1,5 +1,6 @@
 body { 
-  background-image: url(../images/bg7.jpg);
+  /*background-image: url(../images/bg10.jpg);*/
+  background-image: linear-gradient(red, orange);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -10,9 +11,5 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Nova Cut', cursive;
-  color: #f95527;
-}
-
-.body-text {
-  color: #D3D3D3;
+  color: #fff;
 }
