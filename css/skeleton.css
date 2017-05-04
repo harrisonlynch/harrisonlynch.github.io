@@ -187,7 +187,7 @@ input[type="button"] {
   border: 1px solid #bbb;
   cursor: pointer;
   box-sizing: border-box;
-  width: 140px; /* next three lines are all new*/
+  width: 160px; /* next three lines are all new*/
   height: 50px;
   padding-top: 5px; }
 .button:hover,
