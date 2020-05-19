@@ -1,0 +1,16 @@
+h1 {
+  text-align: center;
+}
+
+lh {
+  font-weight: bold;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 50%;
+  border-radius: 5px;
+}
