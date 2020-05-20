@@ -8,3 +8,9 @@ h1 {
   margin-right: auto;
   border-radius: 5px;
 }
+
+@media screen and (min-width: 480px) {
+  img {
+       width: 45%;
+  }
+}
